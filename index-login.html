@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login do Administrador</title>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/122/122796.png"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(../Diamond/assets/images/footer-bg.png);
+    }
+    li {
+      list-style-type: none;
+    }
+    
+    .container {
+      
+      width: 415px;
+      height: 250px;
+      padding: 20px;
+      margin: 0 auto;
+      margin-top: 250px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+    }
+    
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+   
+    .container input[type="text"],
+    .container input[type="password"] {
+      width: 92%;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+    }
+    
+    .container input[type="submit"] {
+      width: 100%;
+      padding: 15px;
+      background-color: #1E90FF;
+      color: #fff;
+      border: solid;
+      border-radius: 450px;
+      cursor: pointer;
+      
+    }
+    
+    .container input[type="submit"]:hover {
+      background-color: #ffffff;
+      color: #1E90FF	;
+      border: solid;
+   
+      border-radius: 450px;
+
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="logo"><li><a href="../Diamond/index.html"><img src="assets/images/Logo da Empresa2.png" alt="..." width="210"></a></div>
+  <div class="container">
+    <h2>Login do Administrador</h2>
+    <form action="../Diamond/model/LoginMensagem.php" method="post">
+      <input type="text" placeholder="Nome de usuario" name= 'username'>
+      <input type="password" placeholder="Senha" name= 'password'>
+      <input type="submit" value="Entrar"><a href="../Diamond/index-tela-email.php"></a>
+
+    </form>
+  </div>
+</body>
+</html>
